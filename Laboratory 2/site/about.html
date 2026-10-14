@@ -6,20 +6,58 @@
         <title>Обо мне</title> 
     </head> 
     <body>
+
+         <!--Шапка-->
+        <header>
+            <h1>Студент университета</h1>
+            <a href="index.html" title="Перейти на Главную">
+                <img src="images/logo.jpeg" alt="Логотип визитки студента" width="100" height="100">
+            </a>
+
+            <nav>
+                <h2>Меню</h2>
+                <ul>
+                    <li><a href="index.html" title="Перейти на страницу Главная">Главная</a></li>
+                    <li><a href="about.html" title="Перейти на страницу Обо мне">Обо мне</a></li>
+                    <li><a href="friends.html" title="Перейти на страницу Друзья">Друзья</a></li>
+                    <li><a href="hobbies.html" title="Перейти на страницу Увлечения">Увлечения</a></li>
+                    <li><a href="group.html" title="Перейти на страницу Группа">Группа</a></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+
+        <!--Начало основного блока-->
         <main>
+
+            <article>
+                <h2>Быстрые ссылки для перехода по странице</h2>
+                <ul>
+                    <li><a href="about.html#биография" title="Перейти в раздел Биография">Биография</a></li>
+                    <li><a href="about.html#навыки" title="Перейти в раздел Навыки">Навыки</a></li>
+                    <li><a href="about.html#аккаунты" title="Перейти в раздел Мои аккаунты">Мои аккаунты</a></li>
+                </ul>
+            </article>
+
             <section>
-                <h1>Биография</h1>
+                <h2 id="биография">Биография</h2>
                 <p>
                     Я являюсь студентом вуза под названием СКФУ. Обучаюсь по направлению подготовки "Программная инженерия".
                 </p>
-                <p>
-                    До того, как я поступил в университет, я учился <em>целых</em> 11 лет в обычной школе.
-                </p>
-                <hr>
+                <aside>
+                    <p>
+                        До того, как я поступил в университет, я учился <em>целых</em> 11 лет в обычной школе.
+                    </p>
+                </aside>
+                
+                <div>
+                    <img src="https://i.pinimg.com/736x/15/0f/a8/150fa8800b0a0d5633abc1d1c4db3d87.jpg" alt="Изображение моей аватарки" width="200" height="200">
+                    <p>Моя аватарка</p>
+                </div>
             </section>
 
             <section>
-                <h2>Навыки</h2>
+                <h2 id="навыки">Навыки </h2>
                 <p>
                     Вот некоторые мои навыки.
                 </p>
@@ -52,6 +90,24 @@
                 </dl>
                 </ol>
             </section>
+
+            <section>
+                <article>
+                    <h2 id="аккаунты">Мои аккаунты</h2>
+                    <ul>
+                        <li><a href="https://github.com/stell-stars" title="Мой профиль GitHub" target="_blank">GitHub</a></li>
+                        <li><a href="https://vk.ru/id1030943283" title="Мой профиль ВК" target="_blank">Вконтакте</a></li>
+                    </ul>
+                </article>
+            </section>
+
         </main>
+
+        <!--Футер-->
+        <footer>
+            <hr>
+            <p>Некоторые изображения созданы ИИ.</p>
+            <p>© 2026 - Все права защищены.</p>
+        </footer>
     </body> 
 </html>
