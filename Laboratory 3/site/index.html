@@ -8,23 +8,23 @@
     </head> 
     <body>
 
-         <!--Шапка-->
+        <!--Шапка-->
         <header>
-            <h1>
-                <a href="index.html" title="Перейти на Главную"><img src="images/logo.jpeg" alt="Логотип визитки студента" width="50"></a> Студент университета
-            </h1>
+            <div class="header_logo_nav">
+                <div class="logo">
+                    <a href="index.html" title="Перейти на Главную"><img src="images/logo.jpeg" alt="Логотип визитки студента" width="50"></a> Студент университета
+                </div>
 
-            <nav>
-                <h2>Меню</h2>
-                <ul>
-                    <li><a href="index.html" title="Перейти на страницу Главная">Главная</a></li>
-                    <li><a href="about.html" title="Перейти на страницу Обо мне">Обо мне</a></li>
-                    <li><a href="friends.html" title="Перейти на страницу Друзья">Друзья</a></li>
-                    <li><a href="hobbies.html" title="Перейти на страницу Увлечения">Увлечения</a></li>
-                    <li><a href="group.html" title="Перейти на страницу Группа">Группа</a></li>
-                </ul>
-            </nav>
-            <hr>
+                <nav>
+                    <ul>
+                        <li><a href="index.html" title="Перейти на страницу Главная"><div class="button_nav">Главная</div></a></li>
+                        <li><a href="about.html" title="Перейти на страницу Обо мне"><div class="button_nav">Обо мне</div></a></li>
+                        <li><a href="friends.html" title="Перейти на страницу Друзья"><div class="button_nav">Друзья</div></a></li>
+                        <li><a href="hobbies.html" title="Перейти на страницу Увлечения"><div class="button_nav">Увлечения</div></a></li>
+                        <li><a href="group.html" title="Перейти на страницу Группа"><div class="button_nav">Группа</div></a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <!--Начало основного блока-->
@@ -56,15 +56,17 @@
 
             <section>
                 <h2>Мои новости</h2>
-                <article>
-                    <h3>Новость 1</h3>
-                    <p>Текст новости</p>
-                </article>
+                <div class="news_hub">
+                    <article class="news">
+                        <h3>Новость 1</h3>
+                        <p>Текст новости</p>
+                    </article>
 
-                <article>
-                    <h3>Новость 2</h3>
-                    <p>Текст новости</p>
-                </article>
+                    <article class="news">
+                        <h3>Новость 2</h3>
+                        <p>Текст новости</p>
+                    </article>
+                </div>
             </section>
 
             <aside>
@@ -75,7 +77,6 @@
 
         <!--Футер-->
         <footer>
-            <hr>
             <p>Некоторые изображения созданы ИИ.</p>
             <p>© 2026 - Все права защищены.</p>
         </footer>
