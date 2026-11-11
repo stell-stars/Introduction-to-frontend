@@ -3,33 +3,12 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
     color: #080d13;
+    margin: 0%;
 }
 
-h1 {
-    color: #031b38;
-}
-
-h2 {
-    color: #052853;
-}
-
-h3 {
-    color: #093e80;
-}
-
-h4 {
-    color: #0c50a3;
-}
-
-
-p {
-    line-height: 1.5;
-    text-align: justify;
-}
-
-.uppart {
+.header_logo_nav {
     display: flex;
-    gap: 20px;
+    gap: 3%;
 }
 
 .logo {
@@ -41,10 +20,9 @@ nav {
     width: 300;
     margin: 0 auto;
     padding: 5px;
-    background-color: #5b8fce;
+    background-color: #64a3f0e1;
     border-radius: 15px;
     text-align: center;
-    display: flex;
     gap: 20px;
     list-style: none;
     box-shadow: 0 4px 15px #15223365;
@@ -56,22 +34,25 @@ nav ul {
     list-style: none;
 }
 
-nav li {
-    background-color: #a4bfe0;
-    border-radius: 15px;
+.button_nav {
+    background-color: #9abce6;
+    border-radius: 10px;
     text-decoration: none;
     transition: 0.1s;
+    color: #000000;
+    text-decoration: none;
 }
 
-nav li:hover {
-    font-size: 20px;
+.button_nav:hover {
     box-shadow: 0 4px 15px #101b2944;
+    background-color: #c7dbf3;
 }
 
 nav a {
     color: #5f6874;
     text-decoration: none;
 }
+
 
 main a {
     text-decoration: underline;
@@ -80,5 +61,49 @@ main a {
 
 main a:hover {
     color: #304c88;
-    text-decoration: overline;
+    text-decoration:overline;
+}
+
+
+h1 {
+    color: #031b38;
+}
+h2 {
+    color: #052853;
+}
+h3 {
+    color: #093e80;
+}
+h4 {
+    color: #0c50a3;
+}
+
+p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.accounts ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.news_hub {
+    display: flex;
+    gap: 20px;
+    background-color: #e6effa;
+    padding: 2%;
+}
+
+.news {
+    background-color: #9ebfe9;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #031b38;
+    padding: 2%;
+    color: #d9e5f7;
 }
